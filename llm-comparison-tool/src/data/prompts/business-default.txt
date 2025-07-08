@@ -1,0 +1,15 @@
+Analyze the following business document and extract key business attributes. Return the response as a JSON object with the following structure:
+{
+    "Business Name": "extracted business name",
+    "Industry": "identified industry",
+    "Business Type": "type of business (e.g., LLC, Corporation, etc.)",
+    "Location": "business location",
+    "Services/Products": "main services or products offered",
+    "Target Market": "identified target market",
+    "Key Personnel": "key people mentioned",
+    "Revenue Model": "how the business makes money",
+    "Unique Value Proposition": "what makes this business unique"
+}
+ 
+Document text: {DOCUMENT_TEXT}
+Please respond with ONLY the JSON object.
