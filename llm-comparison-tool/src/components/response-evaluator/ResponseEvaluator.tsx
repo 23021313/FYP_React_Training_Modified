@@ -149,7 +149,7 @@ const ResponseEvaluator: React.FC = () => {
         setTemplateContent("");
         setEditingTemplateId(null);
     };
-
+    
     // Edit template
     const handleEditTemplate = (tpl: PromptTemplate) => {
         setEditingTemplateId(tpl.id);
